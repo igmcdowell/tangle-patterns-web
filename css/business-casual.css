@@ -137,6 +137,11 @@ footer a.current {
   cursor: default;
 }
 
+.cleared:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .sharrre .box{
     float:left;
