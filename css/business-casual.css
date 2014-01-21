@@ -132,6 +132,11 @@ footer a:hover {
   text-decoration: none;
 }
 
+footer a.current {
+  pointer-events: none;
+  cursor: default;
+}
+
 
 .sharrre .box{
     float:left;
